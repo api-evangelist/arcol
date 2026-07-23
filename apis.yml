@@ -1,8 +1,27 @@
 aid: arcol
 name: Arcol
-description: 'Arcol is a company surfaced as a portfolio company of cowboy-ventures, craft-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Arcol is a browser-based, real-time collaborative building design and
+  documentation platform for the architecture, engineering, and construction (AEC)
+  industry, often described as a "Figma for BIM." Founded in 2021 by Paul O''Carroll
+  and based in New York City, Arcol keeps massing, floorplans, metrics, estimating,
+  and construction documentation connected in a single cloud-native workspace so early
+  design decisions stay constructible. It supports multiplayer editing (built on Liveblocks),
+  IFC and Excel import/export, a Rhino integration, and AI-assisted modeling. Arcol
+  is backed by Cowboy Ventures and Craft Ventures. A public plugin API and developer
+  SDK are described on the roadmap but are not yet published, so this profile currently
+  exposes no programmatic API surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/HnDaP5FKA9gqHyRoPpGMJzI1Qg.png
 url: https://raw.githubusercontent.com/api-evangelist/arcol/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,24 @@ x-backed-by:
 - craft-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
+x-enrichment-note: 'Enrichment pass 2026-07-18: Arcol publishes no OpenAPI, SDK, MCP,
+  CLI, or event/webhook surface. Plugin API is roadmap-only. No spec-bearing artifacts
+  could be derived without fabrication; this pass wired verified public link-properties
+  only.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Vertical Software
+- AEC
+- Architecture
+- BIM
+- Building Design
+- Collaboration
+- Construction
+- Design Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +57,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.arcol.io
+- type: Blog
+  url: https://arcol.io/blog
+- type: Pricing
+  url: https://arcol.io/pricing
+- type: SignUp
+  url: https://app.arcol.io
+- type: Login
+  url: https://app.arcol.io
+- type: Support
+  url: https://help.arcol.io
+- type: PrivacyPolicy
+  url: https://arcol.io/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
