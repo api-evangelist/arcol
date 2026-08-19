@@ -35,7 +35,7 @@ x-enrichment-note: 'Enrichment pass 2026-07-18: Arcol publishes no OpenAPI, SDK,
   CLI, or event/webhook surface. Plugin API is roadmap-only. No spec-bearing artifacts
   could be derived without fabrication; this pass wired verified public link-properties
   only.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
