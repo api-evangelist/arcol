@@ -10,6 +10,17 @@ description: 'Arcol is a browser-based, real-time collaborative building design 
   is backed by Cowboy Ventures and Craft Ventures. A public plugin API and developer
   SDK are described on the roadmap but are not yet published, so this profile currently
   exposes no programmatic API surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
