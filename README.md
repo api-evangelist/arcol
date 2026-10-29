@@ -64,6 +64,74 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Arcol is a company surfaced as a portfolio company of cowboy-ventures, craft-ventures and added to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile is a lead awaiting the enrichment pipeline.
+Arcol is a browser-based, real-time collaborative building design and documentation platform for the architecture, engineering, and construction (AEC) industry, often described as a "Figma for BIM." Founded in 2021 by Paul O'Carroll and based in New York City, Arcol keeps massing, floorplans, metrics, estimating, and construction documentation connected in a single cloud-native workspace so early design decisions stay constructible. It supports multiplayer editing (built on Liveblocks), IFC and Excel import/export, a Rhino integration, and AI-assisted modeling. Arcol is backed by Cowboy Ventures and Craft Ventures. A public plugin API and developer SDK are described on the roadmap but are not yet published, so this profile currently exposes no programmatic API surface.
 
-Backed by: cowboy-ventures, craft-ventures — https://www.arcol.io
+**Areas:** Company · Vertical Software · AEC · Architecture · BIM · Building Design · Collaboration · Construction · Design Software
+
+## Arcol on APIs.io
+
+Everything profiled for Arcol is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/arcol/](https://apis.io/providers/arcol/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.arcol.io)
+- [Pricing](https://arcol.io/pricing)
+- [Sign up](https://app.arcol.io)
+- [Support](https://help.arcol.io)
+- [Blog](https://arcol.io/blog)
+- [Privacy policy](https://arcol.io/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 7.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 3.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/arcol/](https://apis.io/providers/arcol/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Arcol: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/arcol/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
